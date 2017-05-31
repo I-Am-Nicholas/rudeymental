@@ -2,7 +2,6 @@
 Cussword.destroy_all
 strings = %w(anus
  anal
- arrse
  arse
  ass
  ass\ clown
@@ -10,6 +9,7 @@ strings = %w(anus
  ass\ hole
  ass\ out
  ass\ wipe
+ ass\ rag
  ball\ breaker
  ball\ buster
  baller
@@ -22,7 +22,6 @@ strings = %w(anus
  bigballer
  bimbo
  bite\ me
- biteme
  blewinski
  blue\ ball
  blue\ balls
@@ -38,12 +37,14 @@ strings = %w(anus
  corn\ hole
  cornhole
  crack\ spackler
+ crab\ face
  crap
  crap\ face
  crap\ head
  crapface
  craphead
  crapper
+ cum\ bucket
  cum\ bubble
  cum\ stain
  dangelberry
@@ -101,6 +102,7 @@ strings = %w(anus
  hairy\ taco
  hairytaco
  hell
+ hitter
  hoochie\ mama
  horse\ shit
  horseshit
@@ -134,12 +136,13 @@ strings = %w(anus
  phelcher
  pheltch
  pheltcher
+ phlegm
  penis\ wrinkle
  peniswrinkle
  pipe\ hitter
  pipehitter
  piss
- pissdrinker
+ piss\ drinker
  pito
  pole\ smoker
  polock
@@ -156,6 +159,7 @@ strings = %w(anus
  rimjob
  satan
  schlong
+ schmuck
  shit
  shits
  shit\ eater
@@ -168,6 +172,7 @@ strings = %w(anus
  shitfaced
  shithead
  shitkicker
+ shitter
  skank
  smegma
  snog
@@ -177,13 +182,14 @@ strings = %w(anus
  sphincterface
  testes
  testicles
- testicular\ polisher
+ testicle\ polisher
  titty
- titty\ twisted)
+ titty\ twisted
+ wipe)
 cusswords_hash = []
 cusswords_hash = strings.map do |w|
-  threes = ['anal', 'shit', 'fuck', 'anus', 'fuk', 'fvck']
-  twos = ['testciles', 'sphincter', 'poop', 'ass', 'dick', 'arse']
+  threes = ['anal', 'shit', 'fuck', 'anus', 'fuk', 'fvck', 'cum']
+  twos = ['testicles', 'sphincter', 'poop', 'ass', 'dick', 'arse', 'penis', 'hole']
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
@@ -195,4 +201,4 @@ cusswords_hash = strings.map do |w|
 end
 
 words = Cussword.create(cusswords_hash)
-p "Created #{Cussword.count} words"
+puts "A fresh list of #{Cussword.count} swear words is now on your machine."

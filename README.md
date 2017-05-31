@@ -1,4 +1,4 @@
-# Rudimental - A Swear word generator
+# Rudeymental - A Swear word generator
 
 ## A group project using Rails for the first time.
 ## From conception to completion in 3 and-a-half days.
@@ -26,10 +26,10 @@
 $bundle install
 
 - To create database
-$rails new . -d postgresql -T
-$rake db:create
-$rake db:create RAILS_ENV=test
-$rake db:create RAILS_ENV=development
+- $rails new . -d postgresql -T
+- $rake db:create
+- $rake db:create RAILS_ENV=test
+- $rake db:create RAILS_ENV=development
 
 - To fill your new database with the necessary 'vocabulary'.
 $rake db:seed
@@ -38,7 +38,3 @@ $rake db:seed
 ## How to run the test suite
 
 - $rspec
-
-
-## Struggles
-- Once we deployed to Heroku, our local seeded database didn't upload, had to run $heroku run db:migrate db:seed
