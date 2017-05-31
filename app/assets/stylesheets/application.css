@@ -14,7 +14,7 @@
  *= require_self
  */
  body {
-   background-image: url('/../assets/Background.png');
+   background-image: url('/../assets/images/Background.png');
    background-position: center;
    background-size: cover;
    background-repeat: repeat-y;
