@@ -1,38 +1,41 @@
-# rudimental
+# Rudimental - A Swear word generator
 
-* Technologies used
-  Rails, Google Translate Plugin, PostgreSQL, Capybara, Rspec
+## A group project using Rails for the first time.
+## From conception to completion in 3 and-a-half days.
 
-* Ruby version
-  2.4.0
+## Team
 
-* Rails version
-  4.2.8
+- Eva Balog
+- Nicholas Leacock
+- Sophie Mclean
+- Albert Yanit
 
-* System dependencies
+## Technologies
+- Ruby(v2.4.0)
+- Rails(v4.2.8)
+- PostgreSQL
+- Capybara
+- Rspec
 
-* Configuration
-  $gem install bundle
-  $bundle install (to install gems and dependencies from the Gemfile)
+## Configuration
 
-* Database creation
+- $bundle install (to install gems and dependencies from the Gemfile)
+
+- Database creation
   ????shall we include this: $rails new . -d postgresql -T
-  -we use PostgreSQL
-  $rake db:create
-  -or you might need to run
-  $rake db:create RAILS_ENV=test
-  $rake db:create RAILS_ENV=development
+- $rake db:create
+
+- -or you might need to run
+- $rake db:create RAILS_ENV=test
+- $rake db:create RAILS_ENV=development
 
 
-* Database initialization
-  $rake db:seed
+- To fill your new database with the necessary 'vocabulary'.
+- $rake db:seed
 
-* How to run the test suite
-  $rspec
+## How to run the test suite
 
-* Struggles
-  -Once we deployed to Heroku, our local seeded database didn't upload, had to run $heroku run db:migrate db:seed
+- $rspec
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+## Struggles
+- Once we deployed to Heroku, our local seeded database didn't upload, had to run $heroku run db:migrate db:seed
