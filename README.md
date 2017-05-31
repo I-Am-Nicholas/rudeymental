@@ -10,32 +10,35 @@
 - Sophie Mclean
 - Albert Yanit
 
+
 ## Technologies
+
 - Ruby(v2.4.0)
 - Rails(v4.2.8)
 - PostgreSQL
 - Capybara
 - Rspec
 
+
 ## Configuration
 
-- $bundle install (to install gems and dependencies from the Gemfile)
+- To install gems and dependencies from the Gemfile
+$bundle install
 
-- Database creation
-  ????shall we include this: $rails new . -d postgresql -T
-- $rake db:create
-
-- -or you might need to run
-- $rake db:create RAILS_ENV=test
-- $rake db:create RAILS_ENV=development
-
+- To create database
+$rails new . -d postgresql -T
+$rake db:create
+$rake db:create RAILS_ENV=test
+$rake db:create RAILS_ENV=development
 
 - To fill your new database with the necessary 'vocabulary'.
-- $rake db:seed
+$rake db:seed
+
 
 ## How to run the test suite
 
 - $rspec
+
 
 ## Struggles
 - Once we deployed to Heroku, our local seeded database didn't upload, had to run $heroku run db:migrate db:seed
