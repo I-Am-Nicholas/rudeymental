@@ -202,4 +202,4 @@ cusswords_hash = strings.map do |w|
 end
 
 words = Cussword.create(cusswords_hash)
-puts "Hoorah! A fresh list of #{Cussword.count} swear words now live in your machine!"
+puts "Hoorah! A fresh list of #{Cussword.count} swear words now lives in your machine!"

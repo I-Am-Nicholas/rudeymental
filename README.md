@@ -22,32 +22,59 @@
 
 ## Configuration
 
-- Assuming presence of the command line developer tools.
+- Assuming command line developer tools is already installed.
 
-- $git clone https://github.com/marudine/rudeymental.git in your preferred directory via the command line.
+- Everything with a $ needs to be typed into your console, without the $.
 
-- To install gems and dependencies from the Gemfile
+- $git clone https://github.com/marudine/rudeymental.git in your preferred parent directory via the console.
+
+- To install gems and dependencies from the Gemfile, still in your parent directory:
 $cd rudeymental
+
 $gem install bundler (unless you have bundler already installed)
+
 $bundle install
 
-## Create Database
+## To create database
 
-- In another temporary directory, run $rails new rudeymental-db
-- working in a text editor, copy the gemfile from rudeymental to rudeymental-db
-- copy the database.yml file from rudeymental to rudeymental-db
-- copy the schema.rb file from rudeymental to rudeymental-db
-- still withing the temporary directory, run $bundle install
-- run '$rake db:drop db:create db:schema:load'
-- drop all tables in both rudeymental_development and rudeymental_test
-- run '$rake db:migrate'
-- delete the temporary directory
-- delete the tables from both databases
+If you already have PostgreSQL installed, you only need to go straight to 'Final Part 2)' for this section:
 
-- To populate your new database with the necessary 'vocabulary'.
-$rake db:seed, in the rudeymental directory
+...if you don't have PostgreSQL installed, continue on here in the rudeymental directory:
+
+$chmod 755 pg-install.sh
+
+$./pg-install.sh
+
+If this raises an error telling you your computer name doesn't exist, enter the following two lines, otherwise go straight to 'Final Part 1)':
+
+$create database "your_user_name_here";
+
+$CREATE DATABASE
+
+Now go to Final Part 1)...
+
+
+- Final Part 1)  
+
+$\q
+
+Now go to Final Part 2)...
+
+
+- Final Part 2)
+
+$chmod 755 create-db.sh
+
+$./create-db.sh
+
+$\q
+
+
+## To populate your new database with the necessary dirty vocabulary...
+
+$rake db:seed
 
 
 ## To run the test suite
 
-- $rspec
+$rspec
