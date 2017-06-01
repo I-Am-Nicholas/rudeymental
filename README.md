@@ -22,7 +22,13 @@
 
 ## Configuration
 
+- Assuming presence of the command line developer tools.
+
+- git clone https://github.com/marudine/rudeymental.git into your preferred directory.
+
 - To install gems and dependencies from the Gemfile
+$cd rudeymental
+$gem install bundler (unless you have bundler already installed)
 $bundle install
 
 - To create database

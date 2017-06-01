@@ -80,6 +80,8 @@ strings = %w(anus
  fucker
  fuckers
  fuckface
+ fuckhead
+ fuckhole
  fucking
  fucknut
  fucknuts
@@ -87,7 +89,6 @@ strings = %w(anus
  fuckshit
  fuckstick
  fuk
- fuker
  fukkhead
  fur\ burger
  furburger
