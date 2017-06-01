@@ -26,18 +26,23 @@
 
 - Everything with a $ needs to be typed into your console, without the $.
 
+
+### To import the core code
+
 - $git clone https://github.com/marudine/rudeymental.git in your preferred parent directory via the console.
 
 - To install gems and dependencies from the Gemfile, still in your parent directory:
+
 $cd rudeymental
 
 $gem install bundler (unless you have bundler already installed)
 
 $bundle install
 
-## To create database
 
-If you already have PostgreSQL installed, you only need to go straight to 'Final Part 2)' for this section:
+### To create the database
+
+- If you already have PostgreSQL installed, you only need to go straight to 'Final Part 2)' for this section:
 
 ...if you don't have PostgreSQL installed, continue on here in the rudeymental directory:
 
@@ -45,7 +50,7 @@ $chmod 755 pg-install.sh
 
 $./pg-install.sh
 
-If this raises an error telling you your computer name doesn't exist, enter the following two lines, otherwise go straight to 'Final Part 1)':
+- If this raises an error telling you your computer name doesn't exist, enter the following two lines, otherwise go straight to 'Final Part 1)':
 
 $create database "your_user_name_here";
 
@@ -70,11 +75,11 @@ $./create-db.sh
 $\q
 
 
-## To populate your new database with the necessary dirty vocabulary...
+### To populate your new database with the necessary dirty vocabulary
 
 $rake db:seed
 
 
-## To run the test suite
+### To run the test suite
 
 $rspec
