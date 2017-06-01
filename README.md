@@ -1,6 +1,6 @@
 # Rudeymental - A Swear word generator
 
-## A group project using Rails for the first time.
+## A fun group project using Rails for the first time.
 ## From conception to completion in 3 and-a-half days.
 
 ## Team
@@ -24,23 +24,30 @@
 
 - Assuming presence of the command line developer tools.
 
-- git clone https://github.com/marudine/rudeymental.git into your preferred directory.
+- $git clone https://github.com/marudine/rudeymental.git in your preferred directory via the command line.
 
 - To install gems and dependencies from the Gemfile
 $cd rudeymental
 $gem install bundler (unless you have bundler already installed)
 $bundle install
 
-- To create database
-- $rails new . -d postgresql -T
-- $rake db:create
-- $rake db:create RAILS_ENV=test
-- $rake db:create RAILS_ENV=development
+## Create Database
 
-- To fill your new database with the necessary 'vocabulary'.
-$rake db:seed
+- In another temporary directory, run $rails new rudeymental-db
+- working in a text editor, copy the gemfile from rudeymental to rudeymental-db
+- copy the database.yml file from rudeymental to rudeymental-db
+- copy the schema.rb file from rudeymental to rudeymental-db
+- still withing the temporary directory, run $bundle install
+- run '$rake db:drop db:create db:schema:load'
+- drop all tables in both rudeymental_development and rudeymental_test
+- run '$rake db:migrate'
+- delete the temporary directory
+- delete the tables from both databases
+
+- To populate your new database with the necessary 'vocabulary'.
+$rake db:seed, in the rudeymental directory
 
 
-## How to run the test suite
+## To run the test suite
 
 - $rspec
