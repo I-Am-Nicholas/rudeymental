@@ -44,7 +44,7 @@ $bundle install
 
 - If you already have PostgreSQL installed, you only need to go straight to 'Final Part 2)' for this section:
 
-...if you don't have PostgreSQL installed, continue on here in the rudeymental directory:
+- If you don't have PostgreSQL installed, continue on here in the rudeymental directory:
 
 $chmod 755 postgres-install.sh
 
@@ -59,14 +59,14 @@ $CREATE DATABASE
 Now go to Final Part 1)...
 
 
-- Final Part 1)  
+### Final Part 1)  
 
 $\q
 
 Now go to Final Part 2)...
 
 
-- Final Part 2)
+### Final Part 2)
 
 $chmod 755 create-db.sh
 
@@ -74,7 +74,7 @@ $./create-db.sh
 
 $\q
 
-You may receive a huge stack trace but this can be ignored as long as the process ends with you regular command line prompt.
+You may receive a huge stack trace but this can be ignored as long as the process ends with your regular command line prompt.
 
 
 ### To populate your new database with the necessary dirty vocabulary
