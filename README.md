@@ -31,7 +31,7 @@
 
 - $git clone https://github.com/marudine/rudeymental.git in your preferred parent directory via the console.
 
-- To install gems and dependencies from the Gemfile, still in your parent directory:
+### To install gems and dependencies from the Gemfile, (still from your parent directory):
 
 $cd rudeymental
 
