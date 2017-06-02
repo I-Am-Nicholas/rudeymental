@@ -49,7 +49,6 @@ strings = %w(anus
  cum\ bucket
  cum\ bubble
  cum\ stain
- dangelberry
  dangleberry
  deez\ nuts
  devil
@@ -138,6 +137,7 @@ strings = %w(anus
  pipehitter
  piss
  piss\ drinker
+ piss\ worm
  pito
  pole\ smoker
  pollock
@@ -170,7 +170,6 @@ strings = %w(anus
  shitter
  skank
  smegma
- snog
  sphincter\ boy
  sphincter\ face
  sphincterboy

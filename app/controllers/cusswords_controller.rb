@@ -3,8 +3,8 @@ class CusswordsController < ApplicationController
 
   def show
     session[:x] = params[:severity]
-    @sess = session[:x]
-    @cussword = Cussword.where("rating = ?", @sess)
+    @severity = session[:x]
+    @cussword = Cussword.where("rating = ?", @severity)
     @cusses = @cussword.sample(2)
   end
 end
