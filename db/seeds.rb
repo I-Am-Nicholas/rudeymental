@@ -27,6 +27,8 @@ strings = %w(anus
  blue\ balls
  blueball
  blueballs
+ bollock
+ bollocks
  bullshit
  camel\ toe
  cameltoe
@@ -88,17 +90,9 @@ strings = %w(anus
  fucks
  fuckshit
  fuckstick
- fuk
- fukkhead
  fur\ burger
  furburger
  furry\ burger
- fvck
- fvcker
- fvckface
- fvcking
- fvcknut
- fvcknuts
  hairy\ hatchet\ wound
  hairy\ taco
  hairytaco
@@ -146,7 +140,7 @@ strings = %w(anus
  piss\ drinker
  pito
  pole\ smoker
- polock
+ pollock
  poontang
  poop\ chute
  poop\ stain

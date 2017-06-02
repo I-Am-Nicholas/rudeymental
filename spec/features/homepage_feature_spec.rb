@@ -30,7 +30,7 @@ feature 'homepage' do
       expect(page).to have_css('div.response')
     end
 
-    scenario 'display rudeness' do
+    scenario 'displays rudeness' do
       visit '/'
       click_button 'Get Rude!'
       expect(current_path).to eq '/cusswords/show'
