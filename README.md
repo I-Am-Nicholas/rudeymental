@@ -56,14 +56,14 @@ $create database "your_user_name_here";
 
 $CREATE DATABASE
 
-Now go to Final Part 1)...
+- Now go to Final Part 1)...
 
 
 ### Final Part 1)  
 
 $\q
 
-Now go to Final Part 2)...
+- Now go to Final Part 2)...
 
 
 ### Final Part 2)
@@ -74,7 +74,7 @@ $./create-db.sh
 
 $\q
 
-You may receive a huge stack trace but this can be ignored as long as the process ends with your regular command line prompt.
+- You may receive a huge stack trace but this can be ignored as long as the process ends with your regular command line prompt.
 
 
 ### To populate your new database with the necessary dirty vocabulary
