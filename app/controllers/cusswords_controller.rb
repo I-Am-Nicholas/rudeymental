@@ -1,10 +1,6 @@
 class CusswordsController < ApplicationController
   include CusswordsHelper
 
-  def index
-    @cussword = Cussword.new
-  end
-
   def show
     session[:x] = params[:severity]
     @sess = session[:x]

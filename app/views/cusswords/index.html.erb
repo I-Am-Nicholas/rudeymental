@@ -1,13 +1,6 @@
 <form class=buttons action=/cusswords/show>
   <input type=hidden name=severity value='1'/>
-  <input id=PG13 type=radio name=severity value='1'/>   PG 13
-  <br>
-  <input type=radio name=severity value='2'/>   Mildly Irritated
-  <br>
-  <input type=radio name=severity value='3'/>   Positively Livid
-  <br><br>
-  <input id=sub class=button type='submit' value='Get Rude!'/>
-</form>
+  <%= render "shared/form_partial" %>
 <br><br>
 <div id="notices">
     <div class=rank>Rudeness Auto-Ranked at Level 1</div>
