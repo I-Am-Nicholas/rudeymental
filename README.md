@@ -1,4 +1,4 @@
-# Rudeymental - A Swear word generator
+# Rudeymental - A Swear word generator!
 
 ## A fun group project using Rails for the first time.
 ## From conception to completion in 3 and-a-half days.
@@ -22,7 +22,7 @@
 
 ## Configuration
 
-- Assuming command line developer tools is already installed.
+- This guide assumes command line developer tools are already installed.
 
 - Everything with a $ needs to be typed into your console, without the $.
 

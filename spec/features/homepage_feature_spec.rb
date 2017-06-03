@@ -5,7 +5,7 @@ feature 'homepage' do
 
   context 'Basic Display' do
 
-    scenario 'displays rudeness' do
+    scenario 'displays specified rudeness' do
       visit '/'
       find('#PG13').click
       find('#submit').click

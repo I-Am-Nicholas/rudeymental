@@ -50,8 +50,16 @@
     color: white;
 }
 
+#rank-parent{
+
+}
+
 .rank {
+  border: 2px solid black;
   font-size: 1.5em;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 #auto-rating {
@@ -64,12 +72,12 @@
   bottom: 0;
   height: 400px;
   width: 100%;
-  padding: 50px 0 50px;
+  padding: 25px 0 50px;
 }
 
 #notices-child {
   border: 2px solid red;
-  margin: 100px 100px 0;
+  margin: 50px 100px 0;
   padding: 25px;
   font-size: 0.9em;
 }

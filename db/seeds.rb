@@ -2,6 +2,8 @@
 Cussword.destroy_all
 strings = %w(anus
  anal
+ anus\ face
+ anus\ mouth
  arse
  ass
  ass\ clown
@@ -136,9 +138,10 @@ strings = %w(anus
  pipe\ hitter
  pipehitter
  piss
- piss\ drinker
+ pee\ drinker
  piss\ worm
  pito
+ plunge\ hole
  pole\ smoker
  pollock
  poontang
@@ -182,8 +185,10 @@ strings = %w(anus
  wipe)
 cusswords_hash = []
 cusswords_hash = strings.map do |w|
-  threes = ['anal', 'shit', 'fuck', 'anus', 'fuk', 'fvck', 'cum']
-  twos = ['testicles', 'sphincter', 'poop', 'ass', 'dick', 'arse', 'penis', 'hole']
+  threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles', 'poop']
+  twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'poontang', 'titty',
+     'puta', 'furburger', 'fur\ burger', 'furry\ burger', 'hairy\ taco', 'hairytaco',
+      'hot-beef\ injection', 'foreskin', 'hairy\ hatchet\ wound', 'beaver']
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
