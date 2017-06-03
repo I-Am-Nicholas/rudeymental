@@ -3,6 +3,8 @@
 ## A fun group project using Rails for the first time.
 ## From conception to completion in 3 and-a-half days.
 
+![screen shot 6](https://cloud.githubusercontent.com/assets/24227633/26756354/7d6c1f1e-4898-11e7-89c7-35805dc3c98e.png)
+
 ## Team
 
 - Eva Balog

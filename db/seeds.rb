@@ -32,6 +32,7 @@ strings = %w(anus
  bollock
  bollocks
  bullshit
+ bull\ piss
  camel\ toe
  cameltoe
  condom
@@ -155,7 +156,7 @@ strings = %w(anus
  rectum
  rim\ job
  rimjob
- satan
+ sack
  schlong
  schmuck
  shit
@@ -187,8 +188,8 @@ cusswords_hash = []
 cusswords_hash = strings.map do |w|
   threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles', 'poop']
   twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'poontang', 'titty',
-     'puta', 'furburger', 'fur\ burger', 'furry\ burger', 'hairy\ taco', 'hairytaco',
-      'hot-beef\ injection', 'foreskin', 'hairy\ hatchet\ wound', 'beaver']
+     'puta', 'furburger', 'fur burger', 'furry burger', 'hairy taco', 'hairytaco',
+      'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver']
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
