@@ -3,7 +3,7 @@
 ## A fun group project using Rails for the first time.
 ## From conception to completion in 3 and-a-half days.
 
-![screen shot 6](https://cloud.githubusercontent.com/assets/24227633/26756354/7d6c1f1e-4898-11e7-89c7-35805dc3c98e.png)
+![screen shot](https://cloud.githubusercontent.com/assets/24227633/26761846/d9b29dca-492e-11e7-9a74-29663c23c507.png)
 
 ## Team
 
