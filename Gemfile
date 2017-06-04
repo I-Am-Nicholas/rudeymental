@@ -48,4 +48,6 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'coveralls', require: false
+  gem 'shoulda-matchers', '~> 3.1'
 end
