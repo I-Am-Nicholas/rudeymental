@@ -56,8 +56,6 @@ $./postgres-install.sh
 
 $create database "your_user_name_here";
 
-$CREATE DATABASE
-
 - Now go to Final Part 1)...
 
 
