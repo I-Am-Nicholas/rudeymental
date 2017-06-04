@@ -2,7 +2,7 @@
   <input type=hidden name=severity value="<%=@severity%>"/>
   <%= render "shared/form_partial" %>
 <br>
-<div class=response>
+<div class="response">
   <%@cusses.each do |w|%>
     <%=w.word.split.map(&:capitalize).join(' ')%>
   <%end%>!!
