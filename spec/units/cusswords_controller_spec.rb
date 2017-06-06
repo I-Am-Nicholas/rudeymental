@@ -21,15 +21,21 @@ describe CusswordsController, type: :controller  do
   end
 
   describe "controller" do
+    request_words = ["Crunchy", "Clown"]
 
     before :each do
-      [{word: "Crunchy", rating: 99}, {word: "Clown", rating: 99}].each{|x| Cussword.create(x)}
+      [{word: "Crunchy", rating: 99}, {word: "Clown", rating: 99}, {word: "Batman", rating: 00}, {word: "Robin", rating: 00}].each{|x| Cussword.create(x)}
       controller.params[:severity] = 99
       controller.show
     end
 
     it "returns specific rated swearwords from database via words method" do
       expect(controller.words.first.word).to eq("Crunchy")
+    end
+
+    it "returns specifically rated words from database" do
+      response_words = controller.swears.map(&:word)
+      expect(response_words.all?{|z| request_words.include?(z)}).to be(true)
     end
 
   end
