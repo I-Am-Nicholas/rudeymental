@@ -16,26 +16,28 @@ describe CusswordsController, type: :controller  do
     expect(described_class.new).to respond_to(:show)
   end
 
-  it "can receive messages from the swears method" do
-    expect(described_class.new).to respond_to(:swears)
-  end
-
   describe "controller" do
     request_words = ["Crunchy", "Clown"]
+    severity_rating = 99
+    bat_rating = 22
 
     before :each do
-      [{word: "Crunchy", rating: 99}, {word: "Clown", rating: 99}, {word: "Batman", rating: 00}, {word: "Robin", rating: 00}].each{|x| Cussword.create(x)}
-      controller.params[:severity] = 99
+      [{word: "Crunchy", rating: severity_rating},
+        {word: "Clown", rating: severity_rating},
+         {word: "Batman", rating: bat_rating},
+          {word: "Robin", rating: bat_rating}].each{|x| Cussword.create(x)}
+      controller.params[:severity] = severity_rating
       controller.show
     end
 
-    it "returns specific rated swearwords from database via words method" do
-      expect(controller.words.first.word).to eq("Crunchy")
+    it "returns specific rated words from database via words method" do
+      rating_arr = controller.words.map(&:rating)
+      expect(rating_arr.all?{|n| n == severity_rating}).to be(true)
     end
 
-    it "returns specifically rated words from database" do
+    it "returns specific number of words from words method" do
       response_words = controller.swears.map(&:word)
-      expect(response_words.all?{|z| request_words.include?(z)}).to be(true)
+      expect(response_words.size == request_words.size).to be(true)
     end
 
   end
