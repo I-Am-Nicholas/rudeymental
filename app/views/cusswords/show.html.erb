@@ -1,5 +1,5 @@
 <form class=buttons action=/cusswords/show>
-  <input type=hidden name=severity value="<%=@severity%>"/>
+  <input type=hidden name=severity value="<%=@swear_level%>"/>
   <%= render "shared/form_partial" %>
 <br>
 <div class="response">
@@ -9,5 +9,5 @@
 </div>
 <br><br>
 <div id="rank-parent">
-  <div class="rank">Rude Ranking: Level <%=@severity%></div>
+  <div class="rank">Rude Ranking: Level <%=@swear_level%></div>
 </div>

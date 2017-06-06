@@ -1,11 +1,11 @@
 class CusswordsController < ApplicationController
   include CusswordsHelper
 
-  attr_reader :severity, :cussword
+  attr_reader :swear_level
 
   def show
     session[:severe] = params[:severity]
-    @severity = session[:severe]
+    @swear_level = session[:severe]
     swears()
   end
 
@@ -14,7 +14,7 @@ class CusswordsController < ApplicationController
   end
 
   def words
-    Cussword.where("rating = ?", severity)
+    Cussword.where("rating = ?", swear_level)
   end
 
 end
