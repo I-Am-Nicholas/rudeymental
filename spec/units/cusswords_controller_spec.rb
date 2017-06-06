@@ -12,10 +12,6 @@ describe CusswordsController, type: :controller  do
     end
   end
 
-  it "can receive messages from the show method" do
-    expect(described_class.new).to respond_to(:show)
-  end
-
   describe "controller" do
     request_words = ["Crunchy", "Clown"]
     severity_rating = 99
@@ -30,14 +26,25 @@ describe CusswordsController, type: :controller  do
       controller.show
     end
 
-    it "returns specific rated words from database via words method" do
+    it "returns specific rated words from database" do
       rating_arr = controller.words.map(&:rating)
       expect(rating_arr.all?{|n| n == severity_rating}).to be(true)
     end
 
-    it "returns specific number of words from words method" do
+    it "doesn't return words not requested from database" do
+      rating_arr = controller.words.map(&:rating)
+      expect(rating_arr.all?{|n| n == bat_rating}).to be(false)
+    end
+
+    it "returns specific number of words" do
       response_words = controller.swears.map(&:word)
       expect(response_words.size == request_words.size).to be(true)
+    end
+
+    it "returns words filtered through swears and words methods" do
+      db_words = controller.show.map(&:word)
+      expect(db_words.count).to eq(request_words.size)
+      expect(db_words.all?{|w| w.is_a?String}).to be(true)
     end
 
   end

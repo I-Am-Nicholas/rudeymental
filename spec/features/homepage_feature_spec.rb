@@ -5,14 +5,14 @@ feature 'homepage' do
 
   context 'Basic Display' do
 
-    scenario 'displays specified rudeness' do
+    scenario 'displays specific rudeness' do
       visit '/'
       find('#PG13').click
       find('#submit').click
       expect(page).to have_css('div.response')
     end
 
-    scenario 'displays rudeness' do
+    scenario 'displays rudeness even without selected rating' do
       visit '/'
       click_button 'Get Rude!'
       expect(current_path).to eq '/cusswords/show'
@@ -51,14 +51,6 @@ feature 'homepage' do
       expect(page).to have_content('Rude Ranking: Level 3')
     end
 
-    scenario 'displays rudeness even without selected rating' do
-      visit '/'
-      find('#submit').click
-      expect(page).to have_css('div.response')
-    end
-
-
   end
-
 
 end
