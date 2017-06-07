@@ -1,6 +1,6 @@
 describe CusswordsController, type: :controller  do
 
-  describe 'Router', type: :routing do
+  describe 'Router' do
     it do
       should route(:get, '/').
       to(page: :home, controller: :cusswords, action: :index)
@@ -10,6 +10,19 @@ describe CusswordsController, type: :controller  do
       should route(:get, '/cusswords/show').
       to(controller: :cusswords, action: :show, id: :show)
     end
+  end
+
+  describe "GET index" do
+    it "has a 200 status code" do
+      get :index
+      expect(response.code).to eq("200")
+    end
+
+    it "renders the index template" do
+      get :index
+      expect(response).to render_template("index")
+    end
+
   end
 
   describe "controller" do
