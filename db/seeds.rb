@@ -2,72 +2,57 @@
 Cussword.destroy_all
 strings = %w(anus
  anal
- anus\ face
- anus\ mouth
+ anus-face
+ anus-mouth
  arse
  ass
- ass\ clown
- ass\ face
- ass\ hole
- ass\ out
- ass\ wipe
- ass\ rag
- ball\ breaker
- ball\ buster
- baller
- balling
- bat\ shit
+ ass-clown
+ assface
+ asshole
+ asswipe
+ ass-rag
+ ball-breaker
+ ball-buster
+ bastard
  batshit
  beaver
  beener
- big\ baller
- bigballer
+ berk
  bimbo
- bite\ me
- blewinski
- blue\ ball
- blue\ balls
- blueball
- blueballs
  bollock
  bollocks
  bullshit
- bull\ piss
+ bullpiss
  camel\ toe
  cameltoe
  condom
- coochie
- cootch
- cooze
  corn\ hole
  cornhole
- crack\ spackler
- crab\ face
+ crack-spackler
+ crabface
  crap
- crap\ face
- crap\ head
  crapface
  craphead
  crapper
- cum\ bucket
- cum\ bubble
- cum\ stain
+ crack-sweat
+ cum-bucket
+ cum-bubble
+ cum-stain
  dangleberry
- deez\ nuts
  devil
- dick\ nose
  dick\ wad
  dick\ weed
  dicknose
  dickwad
  dickweed
- dildo
  dingleberry
  dipstick
  douche
- douche\ bag
- eggplant
+ douchebag
+ dragon-fart
+ ejacu-rag
  ejaculator
+ face
  finger\ bang
  finger\ banged
  finger\ banger
@@ -76,10 +61,8 @@ strings = %w(anus
  fingerbanged
  fingerbanger
  fingerfuck
- fore\ skin
  foreskin
  fuck
- fuck\ face
  fucked
  fucker
  fuckers
@@ -92,41 +75,39 @@ strings = %w(anus
  fucks
  fuckshit
  fuckstick
+ fungus
  fur\ burger
  furburger
  furry\ burger
+ git
+ gnat-piss
+ gooch
+ go\ wipe
  hairy\ hatchet\ wound
  hairy\ taco
  hairytaco
  hell
- hitter
- hoochie\ mama
  horse\ shit
  horseshit
  hot-beef\ injection
+ juicer
+ juice-monger
  koochie
- koochy
  kootch
- lettuce\ picker
- lettucepicker
- licknipple
+ nipple-munch
  limpdick
  love\ canal
  mangina
- mother\ fucker
  motherfucker
  motherfucker
  motherfucker
- nip
+ mummified
  nipple
- nutted
+ nose-wipe
+ nose-rag
  nutter
- nutting
- one\ way\ pipe
  panocha
  pecker
- pecker\ head
- pecker\ nose
  peckerhead
  peckernose
  phelch
@@ -136,26 +117,28 @@ strings = %w(anus
  phlegm
  penis\ wrinkle
  peniswrinkle
- pipe\ hitter
- pipehitter
  piss
- pee\ drinker
- piss\ worm
+ piss-face
+ pee-face
+ pee-drinker
+ piss-worm
  pito
  plunge\ hole
- pole\ smoker
- pollock
+ polesmoker
+ pillock
  poontang
  poop\ chute
  poop\ stain
  poopchute
  poopstain
- popped\ cherry
- poppedcherry
+ pox
+ puke-breath
  puta
+ pustule
  rectum
  rim\ job
  rimjob
+ rotter
  sack
  schlong
  schmuck
@@ -174,22 +157,26 @@ strings = %w(anus
  shitter
  skank
  smegma
+ spawn
  sphincter\ boy
  sphincter\ face
  sphincterboy
  sphincterface
+ toad
+ toad-spawn
  testes
  testicles
- testicle\ polisher
  titty
  titty\ twisted
+ toe-jam
  wipe)
-cusswords_hash = []
 cusswords_hash = strings.map do |w|
-  threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles', 'poop']
+  threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles', 'poop', 'rim job', 'rimjob', 'kootch']
   twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'poontang', 'titty',
      'puta', 'furburger', 'fur burger', 'furry burger', 'hairy taco', 'hairytaco',
-      'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver']
+      'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver', 'ejaculator',
+       'fingerbang', 'finger bang', 'finger banged', 'finger banger', 'finger fuck',
+        'fingerbanged', 'fingerbanger', 'fingerfuck', 'crack spackler', 'cameltoe', 'camel toe', 'ejacu-rag']
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
