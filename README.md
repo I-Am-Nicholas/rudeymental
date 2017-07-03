@@ -85,3 +85,7 @@ $rake db:seed
 ## To run the test suite
 
 $rspec
+
+## Live app
+
+https://get-rude.herokuapp.com/
