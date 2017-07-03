@@ -18,6 +18,7 @@ strings = %w(anus
  beaver
  beener
  berk
+ bile
  bimbo
  bollock
  bollocks
@@ -119,6 +120,7 @@ strings = %w(anus
  peniswrinkle
  piss
  piss-face
+ pecker
  pee-face
  pee-drinker
  piss-worm

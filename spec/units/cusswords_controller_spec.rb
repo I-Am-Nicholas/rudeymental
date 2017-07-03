@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 describe CusswordsController, type: :controller  do
 
   describe 'Router' do
