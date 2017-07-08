@@ -91,6 +91,12 @@ $rspec
 https://get-rude.herokuapp.com/
 
 
-## Unrealised features
+## Unrealised Features
 
 - In spite of the three day time-limit we also wanted to develop an API for another team to use in their basic racing game for their crash reactions. Unfortunately we couldn't spare the time, neither for the implementation of Hungarian and French swear words.
+
+## Database Origin and Compilation
+
+- A large part of our database is comprised of words that have been omitted from various sites all over the web, some directly from the blacklists of well-known ones. The rest were added by ourselves. We have tried our best to carefully curate and segregate the words according to their harshness, bearing in mind that some users may not wish to experience the full depths of the English language.
+
+Please forgive us if we haven't always managed to strike the perfect balance :)
