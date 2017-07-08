@@ -184,8 +184,7 @@ strings = %w(anus
  wipe)
 cusswords_hash = strings.map do |w|
   threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles',
-     'poop', 'rim job', 'rimjob', 'kootch', 'wanker', 'rectum', 'bollocks', 'ejaculator',
-   'shit-plunger']
+     'poop', 'rim job', 'rimjob', 'kootch', 'wanker', 'rectum', 'bollocks', 'ejaculator']
   twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'poontang', 'titty',
      'puta', 'furburger', 'fur burger', 'furry burger', 'hairy taco', 'hairytaco',
       'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver',
