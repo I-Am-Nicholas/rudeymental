@@ -51,6 +51,7 @@ strings = %w(anus
  douche
  douchebag
  dragon-fart
+ dragon-guff
  ejacu-rag
  ejaculator
  face
@@ -83,7 +84,7 @@ strings = %w(anus
  git
  gnat-piss
  gooch
- go\ wipe
+ guff
  hairy\ hatchet\ wound
  hairy\ taco
  hairytaco
@@ -118,16 +119,18 @@ strings = %w(anus
  phlegm
  penis\ wrinkle
  peniswrinkle
- piss
- piss-face
  pecker
  pee-face
  pee-drinker
+ pee-worm
+ piss
+ piss-face
  piss-worm
  pito
  plunge\ hole
  polesmoker
  pillock
+ plunger
  poontang
  poop\ chute
  poop\ stain
@@ -156,6 +159,7 @@ strings = %w(anus
  shitfaced
  shithead
  shitkicker
+ shit-plunger
  shitter
  skank
  smegma
@@ -164,6 +168,8 @@ strings = %w(anus
  sphincter\ face
  sphincterboy
  sphincterface
+ stink
+ stew
  toad
  toad-spawn
  testes
@@ -171,16 +177,22 @@ strings = %w(anus
  titty
  titty\ twisted
  toe-jam
+ troll
+ troll-guff
  wally
  wanker
  wipe)
 cusswords_hash = strings.map do |w|
-  threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles', 'poop', 'rim job', 'rimjob', 'kootch', 'wanker']
+  threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles',
+     'poop', 'rim job', 'rimjob', 'kootch', 'wanker', 'rectum', 'bollocks', 'ejaculator',
+   'shit-plunger']
   twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'poontang', 'titty',
      'puta', 'furburger', 'fur burger', 'furry burger', 'hairy taco', 'hairytaco',
-      'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver', 'ejaculator',
+      'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver',
        'fingerbang', 'finger bang', 'finger banged', 'finger banger', 'finger fuck',
-        'fingerbanged', 'fingerbanger', 'fingerfuck', 'crack spackler', 'cameltoe', 'camel toe', 'ejacu-rag']
+        'fingerbanged', 'fingerbanger', 'fingerfuck', 'crack spackler', 'cameltoe',
+        'camel toe', 'ejacu-rag', 'piss', 'piss-face', 'piss-worm', 'mangina',
+        'crack-sweat', 'crack-spackler', 'dragon-fart']
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
