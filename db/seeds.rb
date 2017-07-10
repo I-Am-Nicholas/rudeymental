@@ -120,7 +120,6 @@ strings = %w(anus
  poopstain
  pox
  puke-breath
- puta
  pustule
  rectum
  rim\ job
