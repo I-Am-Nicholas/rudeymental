@@ -18,7 +18,6 @@ strings = %w(anus
  beener
  berk
  bile
- bimbo
  bollock
  bollocks
  bullshit
@@ -155,8 +154,6 @@ strings = %w(anus
  toad-spawn
  testes
  testicles
- titty
- titty\ twisted
  toe-jam
  troll
  troll-guff
@@ -166,9 +163,9 @@ strings = %w(anus
 cusswords_hash = strings.map do |w|
   threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles',
      'poop', 'rim job', 'rimjob', 'kootch', 'wanker', 'rectum', 'bollocks', 'ejaculator']
-  twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'titty', 'puta', 'foreskin',
+  twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'foreskin',
         'crack spackler', 'ejacu-rag', 'piss', 'piss-face', 'piss-worm', 'mangina',
-        'crack-sweat', 'crack-spackler', 'dragon-fart']
+        'crack-sweat', 'dragon-fart']
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
@@ -180,4 +177,5 @@ cusswords_hash = strings.map do |w|
 end
 
 words = Cussword.create(cusswords_hash)
+
 puts "Hoorah! A fresh list of #{Cussword.count} swear words now lives in your machine!"
