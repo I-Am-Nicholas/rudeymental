@@ -15,7 +15,6 @@ strings = %w(anus
  ball-buster
  bastard
  batshit
- beaver
  beener
  berk
  bile
@@ -24,8 +23,7 @@ strings = %w(anus
  bollocks
  bullshit
  bullpiss
- camel\ toe
- cameltoe
+ cesspool
  condom
  corn\ hole
  cornhole
@@ -55,14 +53,6 @@ strings = %w(anus
  ejacu-rag
  ejaculator
  face
- finger\ bang
- finger\ banged
- finger\ banger
- finger\ fuck
- fingerbang
- fingerbanged
- fingerbanger
- fingerfuck
  foreskin
  fuck
  fucked
@@ -78,16 +68,10 @@ strings = %w(anus
  fuckshit
  fuckstick
  fungus
- fur\ burger
- furburger
- furry\ burger
  git
  gnat-piss
  gooch
  guff
- hairy\ hatchet\ wound
- hairy\ taco
- hairytaco
  hell
  horse\ shit
  horseshit
@@ -96,7 +80,6 @@ strings = %w(anus
  juice-monger
  koochie
  kootch
- nipple-munch
  limpdick
  love\ canal
  mangina
@@ -131,7 +114,6 @@ strings = %w(anus
  polesmoker
  pillock
  plunger
- poontang
  poop\ chute
  poop\ stain
  poopchute
@@ -185,12 +167,8 @@ strings = %w(anus
 cusswords_hash = strings.map do |w|
   threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles',
      'poop', 'rim job', 'rimjob', 'kootch', 'wanker', 'rectum', 'bollocks', 'ejaculator']
-  twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'poontang', 'titty',
-     'puta', 'furburger', 'fur burger', 'furry burger', 'hairy taco', 'hairytaco',
-      'hot-beef injection', 'foreskin', 'hairy hatchet wound', 'beaver',
-       'fingerbang', 'finger bang', 'finger banged', 'finger banger', 'finger fuck',
-        'fingerbanged', 'fingerbanger', 'fingerfuck', 'crack spackler', 'cameltoe',
-        'camel toe', 'ejacu-rag', 'piss', 'piss-face', 'piss-worm', 'mangina',
+  twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'bimbo', 'titty', 'puta', 'foreskin',
+        'crack spackler', 'ejacu-rag', 'piss', 'piss-face', 'piss-worm', 'mangina',
         'crack-sweat', 'crack-spackler', 'dragon-fart']
   if threes.any? {|x| w.include?(x)}
     r = 3
