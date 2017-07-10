@@ -90,10 +90,13 @@ $rspec
 
 https://get-rude.herokuapp.com/
 
+## Overview
+
+- We were totally aware that Rails is overkill for such a simple application as this, but we had used Sinatra already in the course and wanted a taste of Ruby's 'Big Gun'. With more than three days we would have done something more with the app, like perhaps including the additional features below.
 
 ## Unrealised Features
 
-- In spite of the three day time-limit we also wanted to develop an API for another team to use in their basic racing game for their crash reactions. Unfortunately we couldn't spare the time, neither for the implementation of Hungarian and French swear words.
+- In spite of the three day time-limit we also wanted to develop an API for another team to use in their basic racing game for their crash reactions. Unfortunately we tried but couldn't complete this feature within the time frame, neither the implementation of Hungarian and French swear words as we'd initially planned.
 
 ## Database Origin and Compilation
 
