@@ -1,171 +1,585 @@
 
 Cussword.destroy_all
-strings = %w(anus
- anal
- anus-face
- anus-mouth
- arse
- ass
- ass-clown
- assface
- asshole
- asswipe
- ass-rag
- ball-breaker
- ball-buster
- bastard
- batshit
- beener
- berk
- bile
- bollock
- bollocks
- bullshit
- bullpiss
- cesspool
- condom
- corn\ hole
- cornhole
- crack-spackler
- crabface
- crap
- crapface
- craphead
- crapper
- crack-sweat
- cum-bucket
- cum-bubble
- cum-stain
- dangleberry
- devil
- dick\ wad
- dick\ weed
- dicknose
- dickwad
- dickweed
- dingleberry
- dipstick
- douche
- douchebag
- dragon-fart
- dragon-guff
- ejacu-rag
- ejaculator
- face
- foreskin
- fuck
- fucked
- fucker
- fuckers
- fuckface
- fuckhead
- fuckhole
- fucking
- fucknut
- fucknuts
- fucks
- fuckshit
- fuckstick
- fungus
- git
- gnat-piss
- gooch
- guff
- hell
- horse\ shit
- horseshit
- hot-beef\ injection
- juicer
- juice-monger
- koochie
- kootch
- limpdick
- love\ canal
- mangina
- motherfucker
- motherfucker
- motherfucker
- mummified
- nipple
- nose-wipe
- nose-rag
- nutter
- panocha
- pecker
- peckerhead
- peckernose
- phelch
- phelcher
- pheltch
- pheltcher
- phlegm
- penis\ wrinkle
- peniswrinkle
- pecker
- pee-face
- pee-drinker
- pee-worm
- piss
- piss-face
- piss-worm
- pito
- plunge\ hole
- polesmoker
- pillock
- plunger
- poop\ chute
- poop\ stain
- poopchute
- poopstain
- pox
- puke-breath
- pustule
- rectum
- rim\ job
- rimjob
- rotter
- sack
- schlong
- schmuck
- shit
- shits
- shit\ eater
- shit\ face
- shit\ faced
- shit\ head
- shit\ kicker
- shiteater
- shitface
- shitfaced
- shithead
- shitkicker
- shit-plunger
- shitter
- skank
- smegma
- spawn
- sphincter\ boy
- sphincter\ face
- sphincterboy
- sphincterface
- stink
- stew
- toad
- toad-spawn
- testes
- testicles
- toe-jam
- troll
- troll-guff
- wally
- wanker
- wipe)
+strings = %w(abecedarian
+abracadabra
+accoutrements
+adagio
+aficionado
+agita
+agog
+akimbo
+alfresco
+aloof
+ambrosial
+amok
+ampersand
+anemone
+anthropomorphic
+antimacassar
+aplomb
+apogee
+apoplectic
+appaloosa
+apparatus
+archipelago
+atingle
+avuncular
+azure
+babushka
+bailiwick
+bafflegab
+balderdash
+ballistic
+bamboozle
+bandwagon
+barnstorming
+beanpole
+bedlam
+befuddled
+bellwether
+berserk
+bibliopole
+bigmouth
+bippy
+blabbermouth
+blatherskite
+blindside
+blob
+blockhead
+blowback
+blowhard
+blubbering
+bluestockings
+boing
+boffo
+bombastic
+bonanza
+bonkers
+boondocks
+boondoggle
+borborygmus
+bozo
+braggadocio
+brainstorm
+brannigan
+breakneck
+brouhaha
+buckaroo
+bucolic
+buffoon
+bugaboo
+bugbear
+bulbous
+bumbledom
+bumfuzzle
+bumpkin
+bungalow
+bunkum
+bupkis
+burnsides
+busybody
+cacophony
+cahoots
+calliope
+candelabra
+canoodle
+cantankerous
+catamaran
+catastrophe
+catawampus
+caterwaul
+chatterbox
+chichi
+chimerical
+chimichanga
+chitchat
+claptrap
+clishmaclaver
+clodhopper
+cockamamie
+cockatoo
+codswallop
+collywobbles
+colossus
+comeuppance
+concoction
+conniption
+contraband
+conundrum
+convivial
+copacetic
+corkscrew
+cornucopia
+cowabunga
+coxcomb
+crackerjack
+crescendo
+crestfallen
+cryptozoology
+cuckoo
+curlicue
+curmudgeon
+demitasse
+denouement
+desperado
+diaphanous
+diddly-squat
+digeridoo
+dilemma
+dillydally
+dimwit
+diphthong
+dirigible
+discombobulated
+dodecahedron
+doldrums
+donkeyman
+donnybrook
+doodad
+doohickey
+doppelganger
+dumbfounded
+dumbwaiter
+dunderhead
+earwig
+eavesdrop
+ebullient
+effervescence
+egads
+eggcorn
+egghead
+elixir
+ephemeral
+epiphany
+eucatastrophe
+extraterrestrial
+finagle
+fandango
+festooned
+fez
+fiasco
+fiddle-footed
+fiddlesticks
+finicky
+firebrand
+fishwife
+fisticuffs
+flabbergasted
+flapdoodle
+flibbertigibbet
+flimflam
+flippant
+flophouse
+flotsam
+flummery
+flummoxed
+flyaway
+flyspeck
+folderol
+foofaraw
+foolhardy
+foolscap
+footloose
+fopdoodle
+fortuitous
+fracas
+frangipani
+freewheeling
+fricassee
+frippery
+frogman
+froufrou
+fuddy-duddy
+fussbudget
+futz
+gadfly
+gadzooks
+gallimaufry
+gangplank
+gangway
+gargoyle
+gasbag
+gazebo
+gazpacho
+gewgaw
+genteel
+ghostwriter
+gibberish
+gimcrack
+gizmo
+glabella
+glitch
+globetrotter
+gobbledygook
+gobsmacked
+goosebump
+gooseflesh
+gorgonzola
+gossamer
+grandiloquent
+greenhorn
+guffaw
+gumshoe
+guru
+gussied
+guttersnipe
+haberdashery
+haboob
+hairpin
+halcyon
+halfwit
+hangdog
+haphazard
+harebrained
+harumph
+harum-scarum
+headlong
+heartstrings
+heebie-jeebie
+heirloom
+helter-skelter
+hemidemisemiquaver
+heyday
+higgledy-piggledy
+highfalutin
+hijinks
+hillbilly
+hippocampus
+hippogriff
+hobbledehoy
+hobnobbed
+hocus-pocus
+hodgepodge
+hogwash
+hokum
+hoodoo
+hoodwink
+hooey
+hooligan
+hoopla
+hootenanny
+hornswoggle
+horsefeathers
+hotbed
+hotfoot
+hothead
+hubbub
+hullabaloo
+humbug
+humdinger
+humdrum
+hunky-dory
+hurly-burly
+hushpuppy
+huzzah
+hyperbole
+idiom
+idiosyncrasies
+igloo
+ignoramus
+impromptu
+incognito
+incredulous
+indomitable
+indubitably
+infinitesimal
+interloper
+interrobang
+ironclad
+izzard
+jabberwocky
+jacuzzi
+jalopy
+jamboree
+jargogle
+jawbreaker
+jetsam
+jibber-jabber
+jitney
+jubilee
+juggernaut
+jujubes
+jumbo
+junket
+juxtaposition
+kaleidoscope
+kaput
+kerfuffle
+kerplunk
+kibosh
+killjoy
+kismet
+knickerbocker
+knickknack
+kowtow
+kumquat
+kvetch
+lackadaisical
+lagoon
+lambasted
+lampoon
+landlubber
+laughingstock
+lexicographer
+limburger
+lingo
+loco
+loggerhead
+logjam
+logophile
+logorrhea
+lollapalooza
+lollygag
+loofah
+loony
+loophole
+lugubrious
+lummox
+machinations
+madcap
+maelstrom
+magnificent
+majordomo
+malapropism
+malarkey
+manifesto
+mastermind
+mayhem
+mealymouthed
+mellifluous
+menagerie
+miasma
+miffed
+milquetoast
+misanthrope
+mishmash
+moocher
+mojo
+mollycoddle
+mondegreen
+moniker
+monkeyshines
+monsoon
+mnemonic
+moonstruck
+muckety-muck
+mudpuppy
+mudslinger
+muffuletta
+mufti
+mulligatawny
+mumbo-jumbo
+murmuration
+muumuu
+nabob
+namby-pamby
+nimrod
+nincompoop
+nitwit
+nomenclature
+nonplussed
+noodge
+nudnik
+numbskull
+onomatopoeia
+oomph
+orotund
+outfox
+outlandish
+oxymoron
+pachyderm
+pagoda
+palindrome
+palomino
+panache
+pandemonium
+pantaloons
+papyrus
+parabola
+parallelogram
+parapet
+paraphernalia
+pedagogue
+peewee
+pell-mell
+persimmon
+persnickety
+pettifogger
+phalanx
+phantasmagorical
+phantonym
+phylactery
+piffle
+pizzazz
+plethora
+pogo
+pogonip
+pollex
+pollywog
+poltroon
+pomposity
+poppycock
+portmanteau
+potpourri
+pseudonym
+pugnacious
+pulchritudinous
+pusillanimous
+pussyfoot
+quibble
+quicksilver
+quicksticks
+quiddle
+quinzee
+quirky
+quixotic
+quizzity
+rabble-rouser
+raconteur
+rainmaker
+ragamuffin
+ragtag
+ransack
+rapscallion
+razzle-dazzle
+razzmatazz
+rejigger
+rendezvous
+resplendent
+rickrack
+ricochet
+riffraff
+rigmarole
+riposte
+roundabout
+roustabout
+rubberneck
+ruckus
+ruffian
+rugrat
+rumpus
+sabayon
+sashay
+sassafras
+scallywag
+scatterbrain
+schadenfreude
+schlep
+schluffy
+schmooze
+schmutz
+scintillating
+scrofulous
+scuttlebutt
+serendipity
+sesquipedalian
+shabang
+shenanigans
+skedaddle
+skullduggery
+slapdash
+slapstick
+slipshod
+smithereens
+smorgasbord
+snollygoster
+sobriquet
+sojourn
+spellbind
+splendiferous
+squeegee
+squooshy
+staccato
+stupefaction
+succotash
+supercilious
+superfluous
+Svengali
+swashbuckler
+switcheroo
+swizzlestick
+synchronicity
+syzygy
+talisman
+taradiddle
+tchotchke
+teepee
+telekinesis
+thingamabob
+thingamajig
+thunderstruck
+tidbit
+tintinnabulation
+toadstool
+toady
+tomfoolery
+tommyrot
+toothsome
+topsy-turvy
+trapezoid
+tub-thumper
+tumultuous
+typhoon
+ululation
+umlaut
+umpteen
+usurp
+uvula
+vamoose
+verisimilitude
+vermicious
+vertigo
+verve
+virtuoso
+vivacious
+vuvuzela
+wackadoodle
+wallflower
+wanderlust
+whatchamacallit
+whatsis
+whimsical
+whippersnapper
+whirligig
+whirlybird
+whizbang
+whodunit
+whoop
+widget
+wigwam
+willy-nilly
+windbag
+wipeout
+wiseacre
+wisecrack
+wisenheimer
+wishy-washy
+woebegone
+wonky
+woozy
+wordplay
+wordsmith
+wunderkind
+wuthering
+xylophone
+yahoo
+yellow-belly
+yokel
+yo-yo
+zaftig
+zeitgeist
+zephyr
+zeppelin
+ziggurat
+zigzag
+zonked
+zoom
+zydeco)
 cusswords_hash = strings.map do |w|
-  threes = ['anal', 'shit', 'fuck', 'anus', 'fvck', 'cum', 'penis', 'testicles',
-     'poop', 'rim job', 'rimjob', 'kootch', 'wanker', 'rectum', 'bollocks', 'ejaculator']
-  twos = ['sphincter', 'ass', 'dick', 'arse', 'hole', 'foreskin',
-        'crack spackler', 'ejacu-rag', 'piss', 'piss-face', 'piss-worm', 'mangina',
-        'crack-sweat', 'dragon-fart']
+  threes = []
+  twos = []
+  threes << w if w[0]=='s'
+  twos << w if w[0]=='p'
   if threes.any? {|x| w.include?(x)}
     r = 3
   elsif twos.any? {|x| w.include?(x)}
