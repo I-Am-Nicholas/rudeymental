@@ -24,7 +24,7 @@
 
 ## Overview
 
-- This is the PG version of the app, bearing in mind that I am presently in search of employment. As such I have replaced the original seed list with a list of reasonably curious English words.(Imagine an irate alien drops to Earth, gets his hands on a dictionary, picks two words at random, and shouts them at the nearest passerby.)
+- This is the PG version of the app, bearing in mind that I am presently in search of employment. As such I have replaced the original seed list with a list of reasonably curious English words (envisage an irate alien drops to Earth, gets his hands on a dictionary, repeatedly picks two words at random, and shouts them at the nearest passerby.)
 
 - The Level 2 rating serves up words exclusively beginning with 'p', and the Level 3 rating gives you words starting only with 's'. All the rest fall under the Level 1 rating. The app populated with the original seed list is available on request.
 
